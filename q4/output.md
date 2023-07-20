@@ -1,1 +1,2 @@
-![image](https://github.com/miroollya/skill-based-test/assets/129681351/b21537d3-1751-4368-9c34-3b9014e5dd2f)
+![image](https://github.com/miroollya/skill-based-test/assets/129681351/6af277e2-a6b7-44bd-bd5a-3454a34cf8df)
+
