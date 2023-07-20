@@ -3,16 +3,16 @@ import threading
 import random
 
 QUOTES = [
-    "Be yourself; everyone else is already taken. - Oscar Wilde",
-    "The only way to do great work is to love what you do. - Steve Jobs",
-    "Life is what happens when you're busy making other plans. - John Lennon",
-    "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
-    "In the end, it's not the years in your life that count. It's the life in your years. - Abraham Lincoln",
-    "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
-    "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
-    "Believe you can and you're halfway there. - Theodore Roosevelt",
-    "Life is 10% what happens to you and 90% how you react to it. - Charles R. Swindoll",
-    "The journey of a thousand miles begins with one step. - Lao Tzu",
+    "Cita-cita tinggi menghasilkan pengorbanan yang besar. - Tunku Abdul Rahman",
+    "Hidup ini adalah tentang memberi, bukan hanya menerima. - Tun Abdul Razak",
+    "Biar mati anak, jangan mati adat. - Hang Tuah",
+    "Air dicincang tak akan putus. - Hang Jebat",
+    "Raja adil raja disembah, raja zalim raja disanggah. - Hang Nadim",
+    "Tak kenal maka tak cinta. - Raja Bersiong",
+    "Raja dan rakyat berpisah tiada. - Sultan Mahmud Mangkat Dijulang",
+    "Kerana nila setitik, rosak susu sebelanga. - Sultan Alauddin Riayat Shah",
+    "Berguru pandai, berguru mulia, berguru dari sejauh mana pun. - Hang Li Po",
+    "Jika benih tidak kuat, pohon tidak akan berkembang. - P. Ramlee",
     "It's just a bad day, not a bad life. - Miroolya"
 ]
 
