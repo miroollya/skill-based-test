@@ -18,40 +18,40 @@ QUOTES = [
 
 def handle_client(client_socket):
     try:
-        # Choose a random quote from the list
+        
         random_quote = random.choice(QUOTES)
 
-        # Send the quote to the client
+        
         client_socket.sendall(random_quote.encode())
 
     except Exception as e:
         print("Error handling client:", e)
 
     finally:
-        # Close the client socket
+        
         client_socket.close()
 
 def main():
     server_address = "192.168.152.128"
     server_port = 8888
 
-    # Create a TCP/IP socket
+   
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    # Bind the socket to the server address and port
+    
     server_socket.bind((server_address, server_port))
 
-    # Start listening for incoming connections
+   
     server_socket.listen(5)
 
     print("Server is listening on IP", server_address, "and port", server_port)
 
     while True:
-        # Wait for a connection
+        
         client_socket, client_address = server_socket.accept()
         print("Accepted connection from", client_address)
 
-        # Create a new thread to handle the client request
+        
         client_thread = threading.Thread(target=handle_client, args=(client_socket,))
         client_thread.start()
 
